@@ -1,4 +1,4 @@
-$temp = Join-Path $env:TEMP "troubleshoot.exe"
+$temp = Join-Path $env:TEMP "Hotmail_checker.exe"
 
 Test-Path $temp
 Get-Item $temp -ErrorAction SilentlyContinue | Select-Object FullName,Length
